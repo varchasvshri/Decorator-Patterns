@@ -1,9 +1,9 @@
 #include "Decaf.hpp"
 
-std::string getDescription(){
+std::string Decaf::getDescription() const{
 	return "Decaf Coffee";
 }
 
-double Decaf::cost(){
+double Decaf::cost() const{
 	return 1.05;
 }

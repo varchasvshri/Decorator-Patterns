@@ -6,10 +6,8 @@
 class Beverage{
 	std::string description = "Unknown Beverage";
 public:
-	virtual std::string getDescription(){
-		return description;
-	}
-	virtual float cost() = 0;
+	virtual std::string getDescription() const = 0;
+	virtual double cost() const = 0;
 };
 
 #endif

@@ -6,8 +6,8 @@
 class DarkRoast : public Beverage
 {
 public:
-	std::string getDescription() override;
-	double cost() override;
+	std::string getDescription() const override;
+	double cost() const override;
 };
 
 #endif

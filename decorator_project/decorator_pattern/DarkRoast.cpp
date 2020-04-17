@@ -1,9 +1,9 @@
 #include "DarkRoast.hpp"
 
-std::string getDescription(){
+std::string DarkRoast::getDescription() const{
 	return "DarkRoasted Coffee";
 }
 
-double DarkRoast::cost(){
+double DarkRoast::cost() const{
 	return 0.99;
 }

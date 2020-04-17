@@ -1,11 +1,9 @@
 #include "HouseBlend.hpp"
 
-std::string getDescription()
-{
+std::string HouseBlend::getDescription() const{
 	return "HouseBlend Coffee";
 }
 
-double HouseBlend::cost()
-{
+double HouseBlend::cost() const{
 	return 0.89;
 }
