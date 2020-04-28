@@ -10,7 +10,11 @@
 #include "light.hpp"
 #include "lightoncommand.hpp"
 #include "lightoffcommand.hpp"
-// #include ".hpp"
-// #include ".hpp"
+#include "garage.hpp"
+#include "garageopen.hpp"
+#include "garageclose.hpp"
+#include "stereo.hpp"
+#include "stereowithCDcommand.hpp"
+#include "stereoOffcommmand.hpp"
 
 #endif
